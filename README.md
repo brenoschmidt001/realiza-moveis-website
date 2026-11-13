@@ -35,7 +35,7 @@ Abra http://localhost:8000 no navegador. A biblioteca Three.js e as fontes exter
 
 Página inicial do site desenvolvido para a Realiza Móveis.
 
-<!-- Adicione aqui uma captura de tela do site em funcionamento. -->
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/11e59657-d80c-4ba7-966e-88ec1e785322" />
 
 ## Aprendizados
 
