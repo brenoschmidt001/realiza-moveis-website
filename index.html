@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1F1C18">
+<title>Realiza Móveis DF · Loja de móveis no Distrito Federal</title>
+<meta name="description" content="Loja de móveis no Distrito Federal. Conheça nossos guarda-roupas, sofás, mesas, cadeiras, armários e colchões. Consulte preços pelo WhatsApp.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Realiza Móveis DF">
+<meta property="og:title" content="Realiza Móveis DF · Loja de móveis">
+<meta property="og:description" content="Guarda-roupas, sofás, mesas, cadeiras, armários e colchões para transformar sua casa com conforto e estilo.">
+<link rel="icon" href="assets/logo.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="intro-active">
+<script>document.body.classList.add('js');</script>
+
+<!-- Abertura: logo se desenha e as "portas" deslizam revelando o site -->
+<div class="intro" id="intro" aria-hidden="true">
+  <div class="intro-door intro-door-l"></div>
+  <div class="intro-door intro-door-r"></div>
+  <div class="intro-center">
+    <img class="intro-mark realiza-logo intro-new-logo" src="assets/logo-abertura.png" alt="Realiza Móveis DF">
+    <p class="intro-name"><span style="animation-delay:1.00s">R</span><span style="animation-delay:1.04s">e</span><span style="animation-delay:1.09s">a</span><span style="animation-delay:1.13s">l</span><span style="animation-delay:1.18s">i</span><span style="animation-delay:1.22s">z</span><span style="animation-delay:1.26s">a</span><span style="animation-delay:1.31s">&nbsp;</span><span style="animation-delay:1.35s">M</span><span style="animation-delay:1.40s">ó</span><span style="animation-delay:1.44s">v</span><span style="animation-delay:1.48s">e</span><span style="animation-delay:1.53s">i</span><span style="animation-delay:1.57s">s</span></p>
+    <p class="intro-tag">Loja de móveis · DF</p>
+    <span class="intro-line"></span>
+  </div>
+  <button class="intro-skip" type="button">Pular</button>
+</div>
+
+<a class="skip" href="#conteudo">Ir para o conteúdo</a>
+
+<header class="top" id="top">
+  <div class="wrap bar">
+    <a class="brand" href="#inicio" aria-label="Realiza Móveis DF — início">
+      <img class="mark realiza-logo" src="assets/logo.png" alt="Logo Realiza Móveis DF">
+      <span class="brand-text"><strong>Realiza Móveis</strong><small>Loja de móveis · DF</small></span>
+    </a>
+    <button class="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+      <span></span><span></span>
+    </button>
+    <nav id="menu" class="menu" aria-label="Principal">
+      <a href="#inicio">Início</a>
+      <a href="#produtos">Produtos</a>
+      <a href="#categorias">Ambientes</a>
+      <a href="#projetos">Vídeos</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+      <a class="btn btn-sm btn-wa" href="https://wa.me/5561981863221?text=Ol%C3%A1%21%20Gostaria%20de%20falar%20com%20um%20vendedor." target="_blank" rel="noopener">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
+        WhatsApp
+      </a>
+    </nav>
+  </div>
+</header>
+
+<main id="conteudo">
+
+  <!-- HERO 3D -->
+  <section class="hero" id="inicio">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow reveal">Loja de móveis · Distrito Federal</p>
+        <h1 class="reveal">Móveis para transformar<br><em>o seu lar.</em></h1>
+        <p class="lead reveal">Guarda-roupas, sofás, mesas, cadeiras, armários e colchões para transformar sua casa com conforto e estilo.</p>
+        <div class="cta reveal">
+          <a class="btn btn-primary" href="#produtos">Conheça nossos produtos</a>
+          <a class="btn btn-ghost" href="https://wa.me/5561981863221?text=Ol%C3%A1%21%20Gostaria%20de%20falar%20com%20um%20vendedor." target="_blank" rel="noopener">Fale com um vendedor</a>
+        </div>
+        <ul class="hero-points reveal">
+          <li><span>01</span>Variedade de móveis</li>
+          <li><span>02</span>Conforto e estilo</li>
+          <li><span>03</span>Consulte preços pelo WhatsApp</li>
+        </ul>
+      </div>
+
+      <div class="stage reveal" id="stage">
+        <canvas id="scene" aria-label="Guarda-roupa em 3D. Arraste para girar." role="img"></canvas>
+        <img class="stage-fallback" src="assets/guarda-roupa-espelho-gavetas.webp" alt="Guarda-roupa com gavetas e porta de espelho">
+        <div class="stage-ui">
+          <div class="finishes" role="radiogroup" aria-label="Acabamento das portas">
+            <span class="finishes-label">Acabamento</span>
+            <button type="button" role="radio" aria-checked="true" data-finish="salvia" style="--sw:#8C9B8C" title="Sálvia"><span class="sr">Sálvia</span></button>
+            <button type="button" role="radio" aria-checked="false" data-finish="grafite" style="--sw:#3A3936" title="Grafite"><span class="sr">Grafite</span></button>
+            <button type="button" role="radio" aria-checked="false" data-finish="offwhite" style="--sw:#ECE6DA" title="Off-white"><span class="sr">Off-white</span></button>
+            <button type="button" role="radio" aria-checked="false" data-finish="freijo" style="--sw:#A8743F" title="Freijó"><span class="sr">Freijó</span></button>
+          </div>
+          <button type="button" class="chip-btn" id="toggleDoors" aria-pressed="false">Abrir portas</button>
+        </div>
+        <p class="stage-hint" aria-hidden="true">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 12a8 8 0 0 1 14-5.3M20 12a8 8 0 0 1-14 5.3"/><path d="M18 3v4h-4M6 21v-4h4"/></svg>
+          Arraste para girar
+        </p>
+        <span class="stage-tag">Modelo 3D · Guarda-roupa com porta de espelho</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- AMBIENTES / CATEGORIAS -->
+  <section class="section" id="categorias">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow reveal">Ambientes</p>
+        <h2 class="reveal">Cada cômodo, <em>com seu estilo.</em></h2>
+      </div>
+      <div class="cats">
+        <a class="cat tilt reveal" href="#produtos" data-filter="cozinha">
+          <video src="assets/cozinha-video.mp4" muted loop autoplay playsinline preload="auto" data-autoplay aria-label="Vídeo de cozinha"></video>
+          <span class="cat-info"><strong>Cozinha</strong><small>Ver produtos em vídeo</small></span>
+        </a>
+        <a class="cat tilt reveal" href="#produtos" data-filter="guarda-roupas">
+          <video src="assets/guarda-roupas-video.mp4" data-playlist="assets/guarda-roupas-video-segundo.mp4" muted autoplay playsinline preload="auto" data-autoplay aria-label="Vídeo de guarda-roupas"></video>
+          <span class="cat-info"><strong>Guarda-roupas</strong><small>Ver produtos em vídeo</small></span>
+        </a>
+        <a class="cat tilt reveal" href="#produtos" data-filter="mesas-cadeiras">
+          <video src="assets/mesas-cadeiras-video.mp4" data-playlist="assets/mesas-cadeiras-video-segundo.mp4" muted autoplay playsinline preload="auto" data-autoplay aria-label="Vídeo de mesas com cadeiras"></video>
+          <span class="cat-info"><strong>Mesas com cadeiras</strong><small>Ver produtos em vídeo</small></span>
+        </a>
+        <a class="cat tilt reveal" href="#projetos">
+          <video src="assets/sofas-video.mp4" data-playlist="assets/sofas-video-segundo.mp4" muted autoplay playsinline preload="auto" data-autoplay aria-label="Vídeo de sofás"></video>
+          <span class="cat-info"><strong>Sofás</strong><small>Ver produtos em vídeo</small></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUTOS -->
+  <section class="section section-alt" id="produtos">
+    <div class="wrap">
+      <div class="head head-row">
+        <div>
+          <p class="eyebrow reveal">Produtos em destaque</p>
+          <h2 class="reveal">Móveis <em>para todos os ambientes.</em></h2>
+        </div>
+        <div class="filters reveal" role="tablist" aria-label="Filtrar por categoria">
+          <button type="button" class="filter is-on" data-filter="todos" role="tab" aria-selected="true">Todos</button>
+          <button type="button" class="filter" data-filter="guarda-roupas" role="tab" aria-selected="false">Guarda-roupas</button>
+          <button type="button" class="filter" data-filter="cozinha" role="tab" aria-selected="false">Cozinha</button>
+          <button type="button" class="filter" data-filter="mesas-cadeiras" role="tab" aria-selected="false">Mesas com cadeiras</button>
+          <button type="button" class="filter" data-filter="sofas" role="tab" aria-selected="false">Sofás</button>
+          <button type="button" class="filter" data-filter="colchoes" role="tab" aria-selected="false">Colchões</button>
+        </div>
+      </div>
+      <div class="product-carousel">
+        <button class="carousel-arrow prev" type="button" aria-label="Ver produtos anteriores" id="productsPrev">&#10094;</button>
+        <div class="products" id="productGrid" tabindex="0" aria-label="Produtos: arraste para os lados para ver mais"></div>
+        <button class="carousel-arrow next" type="button" aria-label="Ver próximos produtos" id="productsNext">&#10095;</button>
+      </div>
+      <p class="empty-products" id="emptyProducts" hidden>Em breve, novos produtos nesta categoria. Entre em contato para consultar os produtos disponíveis.</p>
+      <p class="count" id="productCount" aria-live="polite"></p>
+    </div>
+  </section>
+
+  <!-- COMO FUNCIONA -->
+  <section class="section steps-sec">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow reveal">Como comprar</p>
+        <h2 class="reveal">Três passos <em>para escolher seus móveis.</em></h2>
+      </div>
+      <ol class="steps">
+        <li class="step reveal"><span class="step-n">1</span><h3>Escolha seu móvel</h3><p>Abra o produto desejado e veja os detalhes do produto.</p></li>
+        <li class="step reveal"><span class="step-n">2</span><h3>Chame no WhatsApp</h3><p>Use o botão de consulta ou envie o formulário de contato.</p></li>
+        <li class="step reveal"><span class="step-n">3</span><h3>Receba os valores</h3><p>A equipe informa preços e disponibilidade.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- PROJETOS EM VÍDEO -->
+  <section class="section dark" id="projetos">
+    <div class="wrap">
+      <div class="head head-row">
+        <div>
+          <p class="eyebrow reveal">Móveis em vídeo</p>
+          <h2 class="reveal">Veja os detalhes <em>em movimento.</em></h2>
+        </div>
+        <a class="btn btn-light reveal" href="https://wa.me/5561981863221" target="_blank" rel="noopener">Conheça mais móveis pelo WhatsApp</a>
+      </div>
+      <div class="videos">
+        <figure class="video reveal">
+          <video src="assets/painel-tv-branco.mp4" muted loop autoplay playsinline preload="auto" data-autoplay></video>
+          <figcaption>Móvel para TV branco</figcaption>
+        </figure>
+        <figure class="video reveal">
+          <video src="assets/painel-tv-amadeirado-rack-led.mp4" muted loop autoplay playsinline preload="auto" data-autoplay></video>
+          <figcaption>Painel de TV amadeirado com rack suspenso e LED</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ENTREGAS REALIZADAS -->
+  <section class="section" id="galeria">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow reveal">Nossas entregas</p>
+        <h2 class="reveal">Entregas realizadas <em>por nós.</em></h2>
+        <p class="reveal entregas-subtitle">Cada móvel entregue carrega nosso compromisso com a qualidade, o cuidado e a satisfação de nossos clientes.</p>
+      </div>
+      <div class="gallery gallery-entregas">
+        <figure class="g g1 reveal"><video src="assets/entrega-realiza-1.mp4" autoplay muted loop playsinline preload="metadata" data-autoplay aria-label="Primeira entrega realizada pela Realiza Móveis DF"></video></figure>
+        <figure class="g g2 reveal"><video src="assets/entrega-realiza-2.mp4" autoplay muted loop playsinline preload="metadata" data-autoplay aria-label="Segunda entrega realizada pela Realiza Móveis DF"></video></figure>
+        <figure class="g g3 reveal"><video src="assets/entrega-realiza-3.mp4" autoplay muted loop playsinline preload="metadata" data-autoplay aria-label="Terceira entrega realizada pela Realiza Móveis DF"></video></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="section section-alt" id="sobre">
+    <div class="wrap about">
+      <div class="about-copy">
+        <p class="eyebrow reveal">Sobre a Realiza Móveis DF</p>
+        <h2 class="reveal">Móveis que combinam <em>com a sua casa.</em></h2>
+        <p class="reveal">Somos uma loja de móveis no Distrito Federal. Oferecemos guarda-roupas, sofás, mesas, cadeiras, armários e colchões para deixar sua casa mais confortável e acolhedora.</p>
+        <div class="cta reveal">
+          <a class="btn btn-primary" href="#contato">Fale conosco</a>
+          <a class="btn btn-ghost" href="https://wa.me/5561981863221" target="_blank" rel="noopener">Falar com a loja</a>
+        </div>
+      </div>
+      <div class="about-card reveal tilt">
+        <p class="eyebrow">Entre em contato</p>
+        <p class="ig-handle">(61) 98186-3221</p>
+        <p>Fale com a Realiza Móveis DF e consulte mais informações pelo WhatsApp.</p>
+        <a class="link-arrow" href="https://wa.me/5561981863221" target="_blank" rel="noopener">Abrir WhatsApp <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="wrap faq-wrap">
+      <div class="head">
+        <p class="eyebrow reveal">Perguntas frequentes</p>
+        <h2 class="reveal">Tire suas <em>dúvidas.</em></h2>
+      </div>
+      <div class="faq">
+        <details class="reveal" open>
+          <summary>Como consulto preços e disponibilidade?</summary>
+          <p>Abra o produto desejado e use o botão de consulta pelo WhatsApp, ou envie o formulário da seção de contato.</p>
+        </details>
+        <details class="reveal">
+          <summary>Os preços aparecem no site?</summary>
+          <p>Somente quando a loja autoriza a exibição. Nos demais casos, consulte os valores com a equipe.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="section dark" id="contato">
+    <div class="wrap contact">
+      <div>
+        <p class="eyebrow reveal">Contato</p>
+        <h2 class="reveal">Vamos renovar <em>o seu ambiente?</em></h2>
+        <p class="reveal muted">Preencha o formulário e enviaremos sua mensagem direto para o WhatsApp da loja.</p>
+        <div class="channels reveal">
+          <a class="btn btn-wa" href="https://wa.me/5561981863221?text=Ol%C3%A1%21%20Gostaria%20de%20falar%20com%20um%20vendedor." target="_blank" rel="noopener">Falar pelo WhatsApp</a>
+          <a class="btn btn-light" href="https://wa.me/5561981863221" target="_blank" rel="noopener">WhatsApp da loja</a>
+        </div>
+      </div>
+      <form class="form reveal" id="contactForm" novalidate>
+        <label>Nome<input name="nome" required autocomplete="name" maxlength="80"></label>
+        <label>Telefone / WhatsApp (com DDD)<input name="telefone" type="tel" required autocomplete="tel" maxlength="20" inputmode="tel"></label>
+        <label>E-mail (opcional)<input name="email" type="email" autocomplete="email" maxlength="120"></label>
+        <label>Mensagem<textarea name="mensagem" rows="4" required maxlength="1000"></textarea></label>
+        <button class="btn btn-primary" type="submit">Enviar mensagem</button>
+        <p class="form-msg" id="formMsg" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-grid">
+    <div>
+      <p class="foot-brand">Realiza Móveis DF</p>
+      <p class="muted">Loja de móveis.</p>
+    </div>
+    <nav aria-label="Rodapé">
+      <a href="#produtos">Produtos</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+      <a href="https://wa.me/5561981863221" target="_blank" rel="noopener">WhatsApp</a>
+    </nav>
+    <p class="muted small">© 2026 Realiza Móveis DF</p>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/5561981863221?text=Ol%C3%A1%21%20Gostaria%20de%20falar%20com%20um%20vendedor." target="_blank" rel="noopener" aria-label="Falar pelo WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/><path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1a5 5 0 0 0 5 5h1a.5.5 0 0 0 0-1h-1a.5.5 0 0 0 0 1"/></svg>
+</a>
+
+<!-- Modal de produto -->
+<dialog class="modal" id="productModal" aria-labelledby="mTitle">
+  <button class="modal-close" type="button" aria-label="Fechar">×</button>
+  <div class="modal-grid">
+    <div class="modal-media"><div id="mTrack" class="photo-track" tabindex="0" aria-label="Fotos do produto"></div><div id="mGalleryNav" class="photo-nav" hidden><button type="button" id="mPhotoPrev" aria-label="Foto anterior">‹</button><span id="mPhotoCount"></span><button type="button" id="mPhotoNext" aria-label="Próxima foto">›</button></div></div>
+    <div class="modal-body">
+      <p class="crumb" id="mCrumb"></p>
+      <p class="code" id="mCode"></p>
+      <h3 id="mTitle"></h3>
+      <p class="price">Consulte os valores</p>
+      <p class="avail">Consulte a disponibilidade</p>
+      <p id="mDesc"></p>
+      <label class="mname">Seu nome (opcional)<input id="mName" maxlength="60" autocomplete="name"></label>
+      <a class="btn btn-wa btn-block" id="mWa" target="_blank" rel="noopener">Consultar preço pelo WhatsApp</a>
+      <a class="link-arrow" href="#contato" data-close>Prefere enviar uma mensagem pelo formulário? <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+</dialog>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="intro.js"></script>
+<script src="scene.js"></script>
+<script src="app.js?v=20261112-3"></script>
+</body>
+</html>
